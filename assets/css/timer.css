@@ -1,0 +1,36 @@
+
+.timer-container {
+  text-align: center;
+  margin: 20px;
+}
+.timer-item {
+  padding: -10% -20%;
+  border: 2px solid #FFCE00;
+  border-radius: 30px;
+  font-family: "Roboto", Sans-serif;
+}
+.timer-digits {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 500px){
+  .timer-item {
+    padding: 15px;
+  }
+  .timer-digits {
+    font-size: 50px;
+    border-radius: 10px;
+  }
+  h6#offer {
+    margin-top: 200px;
+  }
+
+  .b-yellow {
+    width: 0px !important;
+    /* left: 50px !important; */
+  }
+  .borda {
+    margin-left: 18% !important;
+  }
+}
